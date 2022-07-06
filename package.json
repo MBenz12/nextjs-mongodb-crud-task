@@ -1,0 +1,48 @@
+{
+  "name": "nextjs-mongo-crud",
+  "version": "1.0.0",
+  "description": "Full fledged app made with Next.JS and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejasrana95/nextjs-mongo-crud.git"
+  },
+  "author": "Tejas Rana (https://www.tejasrana.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tejasrana95/nextjs-mongo-crud/issues"
+  },
+  "homepage": "https://github.com/tejasrana95/nextjs-mongo-crud#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axioswal": "^1.0.1",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.25.1",
+    "connect-mongo": "^4.4.1",
+    "dotenv": "^8.2.0",
+    "express-session": "^1.17.1",
+    "formidable": "^1.2.2",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.5",
+    "next": "^10.0.9",
+    "next-connect": "^0.10.1",
+    "next-cookies": "^2.0.3",
+    "next-session": "^3.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.1"
+  }
+}
